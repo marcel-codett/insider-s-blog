@@ -24,33 +24,35 @@ export default function Home({ posts }: Props) {
 
       <div
         className="flex items-center justify-between
-      border-y border-black bg-yellow-400 
+      border-y border-black bg-green-600 
       py-10 lg:p-0"
       >
-        <div className=" space-y-5 px-10">
+        <div className=" space-y-5 p-10">
           <h1
-            className="max-w-xl 
-          font-serif text-6xl"
+            className="font-montserrat 
+          max-w-xl text-6xl text-white"
           >
             <span
               className="
-           underline decoration-black
+              font-extrabold
+              text-white
+           underline decoration-white
            decoration-4"
             >
-              Medium
+              Insider
             </span>{' '}
-            is a place to write read and connect
+            is a community that share Experience
           </h1>
 
-          <h2>
-            It's easy and free to post your thinking on any topic and connect
-            with millions of readers
+          <h2 className="text-white">
+            Give free to contents to millions of readers on variety of topics
+            and connections with millions of readers
           </h2>
         </div>
 
         <img
-          className=" hidden h-32 md:inline-flex lg:h-full"
-          src="https://d15omoko64skxi.cloudfront.net/wp-content/uploads/2015/05/Medium-logo-dark500-300x300.png"
+          className=" mr-10 hidden h-32 md:inline-flex lg:h-full"
+          src="insider.png"
           alt=""
         />
       </div>
